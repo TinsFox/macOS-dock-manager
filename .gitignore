@@ -1,0 +1,47 @@
+# Go 相关
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# macOS 相关
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 编译输出
+/bin/
+/build/
+/dist/
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 其他
+*.bak
+*.tmp
+*.temp 
